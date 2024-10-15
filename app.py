@@ -3,9 +3,9 @@ import streamlit as st
 from langtail_api import create_thread, delete_thread, list_threads, send_message
 import json
 
-st.set_page_config(page_title="Simple Langtail Chatbot 💬", page_icon="💬", layout="wide")
+st.set_page_config(page_title="Chat with NonStop Consulting CRM Codebase 🧠", page_icon="💬", layout="wide")
 
-st.title("Simple Langtail Chatbot 💬")
+st.title("Chat with NonStop Consulting CRM Codebase 🧠")
 
 # Initialize session state variables
 if 'thread_id' not in st.session_state:
